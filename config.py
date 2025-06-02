@@ -6,8 +6,8 @@
 import os
 
 # API Anahtarları
-UNSPLASH_ACCESS_KEY = "YOUR_UNSPLASH_API_KEY_HERE"
-PEXELS_API_KEY = "YOUR_PEXELS_API_KEY_HERE"
+UNSPLASH_ACCESS_KEY = "75USo0iugiPD6OR6rLYoQYlbEx51eYsINlXT8wR18gI"
+PEXELS_API_KEY = "jdAWMK7sn9tBgWCZKRtWDga3Vfk7jDq4hFRRxHUwqlfhBTV5K3ydsriK"
 
 # Proje Ayarları
 PROJECT_ROOT = os.path.dirname(os.path.abspath(__file__))

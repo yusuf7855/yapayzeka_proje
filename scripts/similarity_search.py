@@ -97,7 +97,7 @@ class SimilaritySearcher:
             cluster_mask = (self.style_clusters == cluster_id)
             cluster_categories = self.metadata[cluster_mask]['category'].value_counts()
             dominant_category = cluster_categories.index[0] if len(cluster_categories) > 0 else 'unknown'
-            cluster_category_map[cluster_id] = {
+            cluster_category_map[str(cluster_id)] = {
                 'dominant_category': dominant_category,
                 'size': int(cluster_counts[cluster_id]),
                 'categories': cluster_categories.to_dict()

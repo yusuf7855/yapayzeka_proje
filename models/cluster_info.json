@@ -1,0 +1,180 @@
+{
+  "0": {
+    "dominant_category": "living_rooms",
+    "size": 4,
+    "categories": {
+      "living_rooms": 4
+    }
+  },
+  "1": {
+    "dominant_category": "kitchens",
+    "size": 53,
+    "categories": {
+      "kitchens": 36,
+      "bathrooms": 11,
+      "dining_rooms": 5,
+      "living_rooms": 1
+    }
+  },
+  "2": {
+    "dominant_category": "bedrooms",
+    "size": 48,
+    "categories": {
+      "bedrooms": 30,
+      "living_rooms": 18
+    }
+  },
+  "3": {
+    "dominant_category": "living_rooms",
+    "size": 19,
+    "categories": {
+      "living_rooms": 9,
+      "bedrooms": 5,
+      "bathrooms": 3,
+      "kitchens": 2
+    }
+  },
+  "4": {
+    "dominant_category": "bathrooms",
+    "size": 13,
+    "categories": {
+      "bathrooms": 11,
+      "living_rooms": 2
+    }
+  },
+  "5": {
+    "dominant_category": "kitchens",
+    "size": 27,
+    "categories": {
+      "kitchens": 10,
+      "bathrooms": 8,
+      "living_rooms": 4,
+      "dining_rooms": 3,
+      "bedrooms": 2
+    }
+  },
+  "6": {
+    "dominant_category": "bathrooms",
+    "size": 49,
+    "categories": {
+      "bathrooms": 48,
+      "kitchens": 1
+    }
+  },
+  "7": {
+    "dominant_category": "bedrooms",
+    "size": 16,
+    "categories": {
+      "bedrooms": 11,
+      "kitchens": 3,
+      "living_rooms": 2
+    }
+  },
+  "8": {
+    "dominant_category": "bedrooms",
+    "size": 4,
+    "categories": {
+      "bedrooms": 3,
+      "living_rooms": 1
+    }
+  },
+  "9": {
+    "dominant_category": "dining_rooms",
+    "size": 18,
+    "categories": {
+      "dining_rooms": 17,
+      "kitchens": 1
+    }
+  },
+  "10": {
+    "dominant_category": "dining_rooms",
+    "size": 20,
+    "categories": {
+      "dining_rooms": 10,
+      "living_rooms": 7,
+      "kitchens": 2,
+      "bedrooms": 1
+    }
+  },
+  "11": {
+    "dominant_category": "dining_rooms",
+    "size": 31,
+    "categories": {
+      "dining_rooms": 21,
+      "living_rooms": 8,
+      "kitchens": 2
+    }
+  },
+  "12": {
+    "dominant_category": "kitchens",
+    "size": 39,
+    "categories": {
+      "kitchens": 22,
+      "bathrooms": 9,
+      "living_rooms": 6,
+      "dining_rooms": 2
+    }
+  },
+  "13": {
+    "dominant_category": "dining_rooms",
+    "size": 24,
+    "categories": {
+      "dining_rooms": 20,
+      "bedrooms": 2,
+      "kitchens": 2
+    }
+  },
+  "14": {
+    "dominant_category": "bedrooms",
+    "size": 38,
+    "categories": {
+      "bedrooms": 22,
+      "living_rooms": 15,
+      "bathrooms": 1
+    }
+  },
+  "15": {
+    "dominant_category": "kitchens",
+    "size": 24,
+    "categories": {
+      "kitchens": 16,
+      "dining_rooms": 8
+    }
+  },
+  "16": {
+    "dominant_category": "dining_rooms",
+    "size": 16,
+    "categories": {
+      "dining_rooms": 12,
+      "kitchens": 3,
+      "living_rooms": 1
+    }
+  },
+  "17": {
+    "dominant_category": "living_rooms",
+    "size": 14,
+    "categories": {
+      "living_rooms": 9,
+      "bedrooms": 5
+    }
+  },
+  "18": {
+    "dominant_category": "bathrooms",
+    "size": 21,
+    "categories": {
+      "bathrooms": 10,
+      "bedrooms": 4,
+      "living_rooms": 3,
+      "dining_rooms": 3,
+      "kitchens": 1
+    }
+  },
+  "19": {
+    "dominant_category": "bedrooms",
+    "size": 27,
+    "categories": {
+      "bedrooms": 16,
+      "living_rooms": 11
+    }
+  }
+}

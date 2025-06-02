@@ -1,0 +1,18 @@
+{
+  "extraction_date": "2025-06-02T03:32:14.147226",
+  "total_images": 505,
+  "feature_dimension": 128,
+  "raw_feature_dimension": 2048,
+  "categories": {
+    "living_rooms": 101,
+    "bedrooms": 101,
+    "kitchens": 101,
+    "bathrooms": 101,
+    "dining_rooms": 101
+  },
+  "file_sizes": {
+    "min_mb": 0.021760940551757812,
+    "max_mb": 0.21554088592529297,
+    "avg_mb": 0.0893384329163202
+  }
+}

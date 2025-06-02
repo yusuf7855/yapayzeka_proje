@@ -1,6 +1,6 @@
-# scripts/web_api.py
+# scripts/web_api_fixed.py
 """
-İç Mekan Benzerlik Arama Sistemi - Web API
+İç Mekan Benzerlik Arama Sistemi - Web API (Düzeltildi)
 Flask tabanlı web arayüzü ve RESTful API
 """
 
@@ -561,11 +561,17 @@ HTML_TEMPLATE = """
             results.forEach((result, index) => {
                 const resultItem = document.createElement('div');
                 resultItem.className = 'result-item';
+                
+                // Kategori adını düzelt
+                const categoryName = result.category.replace('_', ' ').replace(/\\b\\w/g, function(l) { 
+                    return l.toUpperCase(); 
+                });
+                
                 resultItem.innerHTML = `
                     <img src="data:image/jpeg;base64,${result.image_data}" alt="Benzer görsel ${index + 1}">
                     <div class="result-info">
                         <div class="similarity-score">${(result.similarity_score * 100).toFixed(1)}%</div>
-                        <div class="category-tag">${result.category.replace('_', ' ').replace(/\b\w/g, l => l.toUpperCase())}</div>
+                        <div class="category-tag">${categoryName}</div>
                         <div style="margin-top: 8px; font-size: 0.8em; color: #666;">
                             Küme: ${result.style_cluster} | ${result.filename}
                         </div>
@@ -599,7 +605,7 @@ def initialize_searcher():
     if searcher is None:
         print("🔄 Benzerlik arama sistemi başlatılıyor...")
         try:
-            from similarity_search import SimilaritySearcher
+            from similarity_search_fixed import SimilaritySearcher  # Düzeltilmiş dosyayı kullan
             searcher = SimilaritySearcher()
             print("✅ Benzerlik arama sistemi hazır")
         except Exception as e:
